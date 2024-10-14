@@ -9,12 +9,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
-      <module name="xuecheng-plus-parent" target="17" />
+      <module name="xuecheng-plus-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="xuecheng-plus-parent" options="-parameters" />
+      <module name="xuecheng-plus-parent" options="" />
     </option>
   </component>
 </project>
