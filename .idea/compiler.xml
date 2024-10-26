@@ -23,13 +23,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
-      <module name="xuecheng-plus-base" target="1.8" />
-      <module name="xuecheng-plus-content" target="1.8" />
-      <module name="xuecheng-plus-content-api" target="1.8" />
-      <module name="xuecheng-plus-content-model" target="1.8" />
-      <module name="xuecheng-plus-content-service" target="1.8" />
-      <module name="xuecheng-plus-generator" target="1.8" />
-      <module name="xuecheng-plus-parent" target="1.8" />
+      <module name="xuecheng-plus-base" target="17" />
+      <module name="xuecheng-plus-content" target="17" />
+      <module name="xuecheng-plus-content-api" target="17" />
+      <module name="xuecheng-plus-content-model" target="17" />
+      <module name="xuecheng-plus-content-service" target="17" />
+      <module name="xuecheng-plus-generator" target="17" />
+      <module name="xuecheng-plus-parent" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
