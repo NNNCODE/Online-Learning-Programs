@@ -5,9 +5,15 @@ import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 import com.xuecheng.content.dto.QueryCourseParamsDto;
 import com.xuecheng.content.po.CourseBase;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -17,12 +23,24 @@ import org.springframework.web.bind.annotation.RestController;
  * @version 1.0
  */
 
-
-@RestController//相当于@Controller和@responseBody
+@Api(value = "course message management interface",tags = "course message management interface")
+@RestController
 public class CourseBaseInfoController {
 
-        @RequestMapping("/course/lsit")
-        public PageResult<CourseBase> list(PageParams pageParams, @RequestBody QueryCourseParamsDto queryCourseParamsDto){
-                return null;
+        @ApiOperation("course search interface")
+        @PostMapping("/course/list")
+        public PageResult<CourseBase> list(PageParams pageParams, @RequestBody(required=false) QueryCourseParamsDto queryCourseParams){
+
+                CourseBase courseBase = new CourseBase();
+                courseBase.setName("Testing Title");
+                courseBase.setCreateDate(LocalDateTime.now());
+                List<CourseBase> courseBases = new ArrayList();
+                courseBases.add(courseBase);
+                PageResult pageResult = new PageResult<CourseBase>(courseBases,10,1,10);
+                return pageResult;
+
+
         }
+
 }
+

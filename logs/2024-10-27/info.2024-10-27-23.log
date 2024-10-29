@@ -1,0 +1,6 @@
+2024-10-27 23:02:23,527 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2024-10-27 23:02:23,527 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2024-10-27 23:02:23,531 DEBUG [http-nio-63040-exec-10][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2024-10-27 23:02:23,531 DEBUG [http-nio-63040-exec-10][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2024-10-27 23:02:23,534 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-27 23:02:23,534 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK

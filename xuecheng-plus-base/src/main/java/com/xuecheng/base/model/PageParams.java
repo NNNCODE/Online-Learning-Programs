@@ -1,5 +1,6 @@
 package com.xuecheng.base.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.ToString;
 
@@ -14,9 +15,11 @@ import lombok.ToString;
 public class PageParams {
 
     //当前页码
+    @ApiModelProperty("pagination")
     private Long pageNo = 1L;
 
     //每页记录数默认值
+    @ApiModelProperty("Records per page")
     private Long pageSize =10L;
 
     public PageParams(){

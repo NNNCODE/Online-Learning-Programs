@@ -14,3 +14,10 @@ spring:
 # 日志文件配置路径
 logging:
   config: classpath:log4j2-dev.xml
+
+swagger:
+  title: "xuecheng-online management system"
+  description: "content management manage  course relative informations"
+  base-package: com.xuecheng.content
+  enabled: true
+  version: 1.0.0
