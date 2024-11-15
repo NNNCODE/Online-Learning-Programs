@@ -16,5 +16,6 @@
 		<module>xuecheng-plus-content-api</module>
 		<module>xuecheng-plus-content-model</module>
 		<module>xuecheng-plus-content-service</module>
-	</modules>
+        <module>pdfcomress</module>
+    </modules>
 </project>

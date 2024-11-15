@@ -15,11 +15,11 @@ import lombok.ToString;
 public class PageParams {
 
     //当前页码
-    @ApiModelProperty("pagination")
+    @ApiModelProperty("页码数")
     private Long pageNo = 1L;
 
     //每页记录数默认值
-    @ApiModelProperty("Records per page")
+    @ApiModelProperty("每页记录数")
     private Long pageSize =10L;
 
     public PageParams(){

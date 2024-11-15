@@ -1,0 +1,86 @@
+2024-10-28 22:56:38,017 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - GET "/content/swagger-ui.html", parameters={}
+2024-10-28 22:56:38,017 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - GET "/content/swagger-ui.html", parameters={}
+2024-10-28 22:56:38,050 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2024-10-28 22:56:38,050 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2024-10-28 22:56:38,067 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 304 NOT_MODIFIED
+2024-10-28 22:56:38,067 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 304 NOT_MODIFIED
+2024-10-28 22:56:38,203 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - GET "/content/swagger-resources/configuration/ui", parameters={}
+2024-10-28 22:56:38,203 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - GET "/content/swagger-resources/configuration/ui", parameters={}
+2024-10-28 22:56:38,205 DEBUG [http-nio-63040-exec-1][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2024-10-28 22:56:38,205 DEBUG [http-nio-63040-exec-1][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2024-10-28 22:56:38,215 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,215 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,216 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [springfox.documentation.swagger.web.UiConfiguration@4b81f17d]
+2024-10-28 22:56:38,216 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [springfox.documentation.swagger.web.UiConfiguration@4b81f17d]
+2024-10-28 22:56:38,221 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-28 22:56:38,221 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-28 22:56:38,225 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - GET "/content/swagger-resources/configuration/security", parameters={}
+2024-10-28 22:56:38,225 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - GET "/content/swagger-resources/configuration/security", parameters={}
+2024-10-28 22:56:38,225 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2024-10-28 22:56:38,225 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2024-10-28 22:56:38,227 DEBUG [http-nio-63040-exec-4][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,227 DEBUG [http-nio-63040-exec-4][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,227 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@22857e84]
+2024-10-28 22:56:38,227 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@22857e84]
+2024-10-28 22:56:38,228 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-28 22:56:38,228 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-28 22:56:38,230 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - GET "/content/swagger-resources", parameters={}
+2024-10-28 22:56:38,230 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - GET "/content/swagger-resources", parameters={}
+2024-10-28 22:56:38,231 DEBUG [http-nio-63040-exec-9][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2024-10-28 22:56:38,231 DEBUG [http-nio-63040-exec-9][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2024-10-28 22:56:38,233 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,233 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,233 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [[springfox.documentation.swagger.web.SwaggerResource@3a71aa3f]]
+2024-10-28 22:56:38,233 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [[springfox.documentation.swagger.web.SwaggerResource@3a71aa3f]]
+2024-10-28 22:56:38,235 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-28 22:56:38,235 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-28 22:56:38,246 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - GET "/content/v2/api-docs", parameters={}
+2024-10-28 22:56:38,246 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - GET "/content/v2/api-docs", parameters={}
+2024-10-28 22:56:38,248 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - GET "/content/", parameters={}
+2024-10-28 22:56:38,248 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - GET "/content/", parameters={}
+2024-10-28 22:56:38,248 DEBUG [http-nio-63040-exec-7][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2024-10-28 22:56:38,248 DEBUG [http-nio-63040-exec-7][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2024-10-28 22:56:38,249 DEBUG [http-nio-63040-exec-7][ResourceHttpRequestHandler.java:487] - Resource not found
+2024-10-28 22:56:38,249 DEBUG [http-nio-63040-exec-7][ResourceHttpRequestHandler.java:487] - Resource not found
+2024-10-28 22:56:38,249 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2024-10-28 22:56:38,249 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2024-10-28 22:56:38,250 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2024-10-28 22:56:38,250 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2024-10-28 22:56:38,251 DEBUG [http-nio-63040-exec-7][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-10-28 22:56:38,251 DEBUG [http-nio-63040-exec-7][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-10-28 22:56:38,253 DEBUG [http-nio-63040-exec-7][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,253 DEBUG [http-nio-63040-exec-7][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,255 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [{timestamp=Mon Oct 28 22:56:38 CET 2024, status=404, error=Not Found, message=, path=/content/}]
+2024-10-28 22:56:38,255 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [{timestamp=Mon Oct 28 22:56:38 CET 2024, status=404, error=Not Found, message=, path=/content/}]
+2024-10-28 22:56:38,259 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
+2024-10-28 22:56:38,259 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
+2024-10-28 22:56:38,261 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/csrf", parameters={}
+2024-10-28 22:56:38,261 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/csrf", parameters={}
+2024-10-28 22:56:38,261 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2024-10-28 22:56:38,261 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][ResourceHttpRequestHandler.java:487] - Resource not found
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][ResourceHttpRequestHandler.java:487] - Resource not found
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [{timestamp=Mon Oct 28 22:56:38 CET 2024, status=404, error=Not Found, message=, path=/content/csrf}]
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [{timestamp=Mon Oct 28 22:56:38 CET 2024, status=404, error=Not Found, message=, path=/content/csrf}]
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
+2024-10-28 22:56:38,268 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
+2024-10-28 22:56:38,275 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,275 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-10-28 22:56:38,275 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [springfox.documentation.spring.web.json.Json@5b4bf9]
+2024-10-28 22:56:38,275 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [springfox.documentation.spring.web.json.Json@5b4bf9]
+2024-10-28 22:56:38,277 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-28 22:56:38,277 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-28 22:56:40,124 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2024-10-28 22:56:40,124 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2024-10-28 22:56:40,124 DEBUG [http-nio-63040-exec-8][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2024-10-28 22:56:40,124 DEBUG [http-nio-63040-exec-8][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2024-10-28 22:56:40,133 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK
+2024-10-28 22:56:40,133 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK

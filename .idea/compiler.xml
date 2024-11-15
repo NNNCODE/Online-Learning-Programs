@@ -19,27 +19,9 @@
         <module name="xuecheng-plus-content-api" />
         <module name="xuecheng-plus-content-model" />
         <module name="xuecheng-plus-generator" />
+        <module name="pdfcomress" />
         <module name="xuecheng-plus-base" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17">
-      <module name="xuecheng-plus-base" target="1.8" />
-      <module name="xuecheng-plus-content" target="1.8" />
-      <module name="xuecheng-plus-content-api" target="1.8" />
-      <module name="xuecheng-plus-content-model" target="1.8" />
-      <module name="xuecheng-plus-content-service" target="1.8" />
-      <module name="xuecheng-plus-generator" target="1.8" />
-      <module name="xuecheng-plus-parent" target="1.8" />
-    </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="xuecheng-plus-base" options="" />
-      <module name="xuecheng-plus-content" options="" />
-      <module name="xuecheng-plus-content-api" options="" />
-      <module name="xuecheng-plus-content-model" options="" />
-      <module name="xuecheng-plus-content-service" options="" />
-      <module name="xuecheng-plus-parent" options="" />
-    </option>
   </component>
 </project>
